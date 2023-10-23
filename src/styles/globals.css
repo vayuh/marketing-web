@@ -3,15 +3,241 @@
 h1 {
   @apply text-2xl;
 }
+
 h2 {
   @apply text-xl;
 }
+
 h3 {
   @apply text-lg;
 }
+
 a {
   @apply text-blue-600;
 }
 
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color_0: 255, 255, 255;
+  --color_1: 255, 255, 255;
+  --color_2: 0, 0, 0;
+  --color_3: 237, 28, 36;
+  --color_4: 0, 136, 203;
+  --color_5: 255, 203, 5;
+  --color_6: 114, 114, 114;
+  --color_7: 176, 176, 176;
+  --color_8: 255, 255, 255;
+  --color_9: 114, 114, 114;
+  --color_10: 176, 176, 176;
+  --color_11: 255, 255, 255;
+  --color_12: 216, 226, 231;
+  --color_13: 1, 153, 173;
+  --color_14: 0, 78, 115;
+  --color_15: 0, 78, 115;
+  --color_16: 127, 49, 49;
+  --color_17: 190, 74, 74;
+  --color_18: 31, 128, 188;
+  --color_19: 240, 194, 48;
+  --color_20: 252, 225, 225;
+  --color_21: 68, 78, 116;
+  --color_22: 102, 117, 173;
+  --color_23: 31, 128, 188;
+  --color_24: 193, 204, 243;
+  --color_25: 218, 223, 242;
+  --color_26: 15, 61, 71;
+  --color_27: 30, 121, 141;
+  --color_28: 45, 182, 212;
+  --color_29: 137, 210, 226;
+  --color_30: 177, 229, 241;
+  --color_31: 8, 33, 82;
+  --color_32: 16, 65, 165;
+  --color_33: 24, 98, 247;
+  --color_34: 137, 174, 250;
+  --color_35: 176, 202, 252;
+  --color_36: 0, 0, 0;
+  --color_37: 255, 255, 255;
+  --color_38: 72, 98, 111;
+  --color_39: 1, 153, 173;
+  --color_40: 216, 226, 231;
+  --color_41: 0, 78, 115;
+  --color_42: 31, 128, 188;
+  --color_43: 240, 194, 48;
+  --color_44: 148, 202, 89;
+  --color_45: 72, 98, 111;
+  --color_46: 72, 98, 111;
+  --color_47: 31, 128, 188;
+  --color_48: 0, 78, 115;
+  --color_49: 0, 78, 115;
+  --color_50: 255, 255, 255;
+  --color_51: 31, 128, 188;
+  --color_52: 31, 128, 188;
+  --color_53: 255, 255, 255;
+  --color_54: 1, 153, 173;
+  --color_55: 1, 153, 173;
+  --color_56: 0, 0, 0;
+  --color_57: 240, 194, 48;
+  --color_58: 240, 194, 48;
+  --color_59: 0, 78, 115;
+  --color_60: 0, 78, 115;
+  --color_61: 0, 78, 115;
+  --color_62: 240, 194, 48;
+  --color_63: 0, 0, 0;
+  --color_64: 1, 153, 173;
+  --color_65: 1, 153, 173;
+  --font_0: normal normal bold 80px/1.4em poppins-extralight, poppins, sans-serif;
+  --font_1: normal normal normal 16px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+  --font_2: normal normal normal 60px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_3: normal normal bold 30px/normal poppins-extralight, poppins, sans-serif;
+  --font_4: normal normal normal 30px/1.4em 'open sans', sans-serif;
+  --font_5: normal normal normal 24px/1.4em poppins-extralight, poppins, sans-serif;
+  --font_6: normal normal normal 18px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_7: normal normal normal 18px/1.4em 'open sans', sans-serif;
+  --font_8: normal normal normal 16px/1.4em 'open sans', sans-serif;
+  --font_9: normal normal normal 14px/1.4em 'open sans', sans-serif;
+  --font_10: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.navbar {
+  --tw-bg-opacity: 1;
+  background-color: #004D73;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.bg-color-primary {
+  background-color: #004D73;
+}
+
+.font-5 {
+  font: var(--font_5);
+  font-size: 20px;
+}
+
+.font-7 {
+  font: var(--font_7);
+  /* color: rgb(var(--color_41)); */
+  /* font-size: 14px; */
+  font-weight: 100;
+}
+
+.font-14-px {
+  font-size: 14px;
+}
+
+.brightness-9 {
+  filter: brightness(0.9);
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.nav-line-1 {
+  width: 100%;
+  height: 3px;
+  background: #94CA58;
+}
+
+.nav-line-2 {
+  width: 100%;
+  height: 5px;
+  background: #F0C22F;
+  box-shadow: 0 3px 3px -1px grey;
+}
+
+.header {
+  /* position: absolute; */
+  /* top: 0; */
+  width: 100%;
+  background-color: #004D73;
+  /* height: 100px; */
+}
+
+main {
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+
+.footer a {
+  text-decoration-line: none;
+  color: white;
+}
+
+
+.footer .l-lab-logo img {
+  filter: brightness(0) saturate(100%) invert(1);
+}
+
+.main-content {
+  /* margin-top: 150px; */
+  overflow: scroll;
+  background-image: url('/images/vayuh_background.webp');
+}
+
+.content {
+  max-width: 900px;
+}
+
+.content-expanded {
+  max-width: 1100px;
+  width: 100%;
+}
+
+.calendly-embed {
+  width: 900px;
+}
+
+.contact-form {
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0px 30px 0px 30px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact-form h3 {
+  color: rgb(var(--color_42));
+  font-size: 2rem !important;
+  font: var(--font_6);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.blue-header {
+  height: 55px;
+  background: #004D73;
+  width: 100%;
+}
+
+.blue-header h3 span {
+  font: var(--font_3);
+  color: rgb(var(--color_37));
+  letter-spacing: normal;
+}
+
+.header-menu {
+  align-items: end !important;
+}
+
+.header-menu a {
+  /* color: rgb(var(--txt, var(--color_15))); */
+  display: inline-block;
+  padding: 0 10px;
+  transition: var(--trans, color .4s ease 0s);
+  font: var(--fnt,var(--font_1));
+  font-weight: 300;
+  font-size: 17px;
+}
