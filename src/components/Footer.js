@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const Footer = () => {
     return (
         <footer className="footer bg-color-primary flex flex-col items-center text-white p-12 width-100">
-            <div className="flex flex-wrap content-expanded justify-between">
+            <div className="footer-content flex flex-wrap content-expanded justify-between">
 
                 {/* Vayuh Section */}
                 <div className="w-full font-7 flex flex-col space-between md:w-1/4 mb-8 mx-1">

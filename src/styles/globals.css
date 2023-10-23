@@ -119,6 +119,17 @@ body {
   background-color: #004D73;
 }
 
+.bg-border-primary {
+  border: #004D73 1px solid;
+}
+
+.color-primary {
+  color: #004D73;
+}
+.mobile-only {
+  display: none;
+}
+
 .font-5 {
   font: var(--font_5);
   font-size: 20px;
@@ -177,6 +188,10 @@ main {
 
 .footer .l-lab-logo img {
   filter: brightness(0) saturate(100%) invert(1);
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .main-content {
@@ -240,4 +255,34 @@ main {
   font: var(--fnt,var(--font_1));
   font-weight: 300;
   font-size: 17px;
+}
+
+
+@media (max-width: 479px) {
+  .contact-form {
+    width: 100%;
+  }
+  #signup {
+    padding: 0px 20px;
+  }
+  .calendly-embed {
+    width: 100%;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .mobile-only {
+    display: unset;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .footer-content {
+    flex-direction: column-reverse;
+  }
+  .l-lab-logo {
+    margin-bottom: 50px;
+  }
 }

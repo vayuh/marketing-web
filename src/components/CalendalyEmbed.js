@@ -1,8 +1,8 @@
 import React from "react";
 
-const CalendlyEmbed = ({ accountName, eventName }) => {
+const CalendlyEmbed = ({ className }) => {
   return (
-    <div id="book-a-call" className="content my-4">
+    <div id="book-a-call" className={`content my-4 ${className}`}>
       <div className="calendly-embed">
         <iframe
           title={'hubspot'}

@@ -2,30 +2,10 @@ import React, { useState } from "react";
 import HubspotForm from 'react-hubspot-form';
 import vayuh_background from '../images/vayuh_background.webp';
 
-const ContactForm = () => {
-  // State to hold form data
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  // Handler for form input changes
-  const handleInputChange = (event) => {
-    const { name, value } = event.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  // Handler for form submission
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Here, you would typically handle form submission, like sending data to a server
-    // For this example, we'll just log the form data to the console
-    console.log("Form data submitted: ", formData);
-  };
-
+const ContactForm = ({className}) => {
+  
   return (
-    <div  id="signup" className="flex flex-col items-center" style={{ width:'100%', backgroundImage: `url(${vayuh_background})`}}>
+    <div id="signup" className={`flex flex-col items-center ${className}`} style={{ width: '100%', backgroundImage: `url(${vayuh_background})` }}>
       <div className="content contact-form my-4">
         <h3 className="font_3">Sign up to stay informed</h3>
         <HubspotForm
