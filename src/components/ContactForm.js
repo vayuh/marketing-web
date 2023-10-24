@@ -7,7 +7,7 @@ const ContactForm = ({className}) => {
   return (
     <div id="signup" className={`flex flex-col items-center ${className}`} style={{ width: '100%', backgroundImage: `url(${vayuh_background})` }}>
       <div className="content contact-form my-4">
-        <h3 className="font_3">Sign up to stay informed</h3>
+        <h3 className="font_3">Sign up to receive one-pagers</h3>
         <HubspotForm
           portalId='23115881'
           formId='9821729d-1bd0-4288-93fb-93cb9763c0bc'
