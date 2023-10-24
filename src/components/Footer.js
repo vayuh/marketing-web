@@ -16,7 +16,12 @@ const Footer = () => {
                         />
                     </div>
                     <a href="mailto:sales@vayuh.ai" className="underline mt-2" style={{ fontFamily: "open sans,sans-serif;" }}>sales@vayuh.ai</a>
-                    <p className="my-4">Follow Us On: <a href="#" className="underline">LinkedIn</a></p>
+                    <p className="my-4">Follow Us On: <a href="https://www.linkedin.com/company/vayuh/" className="underline"> <div style={{ width: `20px`,display:"contents", background: "transparent" }}>
+                        <StaticImage
+                            src="../images/linkedin.webp"
+                            alt="gatsby astronaut"
+                        />
+                    </div></a></p>
                     <p className="mt-4 font-14-px">
                         Terms & Conditions
                         <br />
@@ -29,25 +34,25 @@ const Footer = () => {
                     {/* Quick Links */}
                     <div className="mb-8">
                         <h2 className="text-2xl font-semibold mb-2 font-5 brightness-9">Quick Links</h2>
-                        <Link to="/home" className="block underline mb-1">Home</Link>
-                        <Link to="/company" className="block underline mb-1">Company</Link>
-                        <Link to="/discover" className="block underline mb-1">Discover</Link>
+                        <Link to="https://www.vayuh.ai/" className="block underline mb-1">Home</Link>
+                        <Link to="https://www.vayuh.ai/company" className="block underline mb-1">Company</Link>
+                        <Link to="https://www.vayuh.ai/discover" className="block underline mb-1">Discover</Link>
                     </div>
 
                     {/* Products */}
                     <div className="mb-8">
                         <h2 className="text-2xl font-semibold mb-2 font-5 brightness-9">Products</h2>
-                        <Link to="/home" className="block mb-1">Weather Forecasts</Link>
-                        <Link to="/home" className="block mb-1">Climate Risk</Link>
-                        <Link to="/home" className="block mb-1">Services</Link>
+                        <Link to="https://www.vayuh.ai/weather-forecasts" className="block mb-1">Weather Forecasts</Link>
+                        <Link to="https://www.vayuh.ai/climate-risk" className="block mb-1">Climate Risk</Link>
+                        <Link to="https://www.vayuh.ai/services" className="block mb-1">Services</Link>
                     </div>
 
                     {/* Industries */}
                     <div>
                         <h2 className="text-2xl font-semibold mb-2 font-5 brightness-9">Industries</h2>
-                        <Link to="/home" className="block mb-1">Insurance & Asset Managers</Link>
-                        <Link to="/home" className="block mb-1">Supply Chains</Link>
-                        <Link to="/home" className="block mb-1">Energy Markets</Link>
+                        <Link to="https://www.vayuh.ai/insurance-and-asset-managers" className="block mb-1">Insurance & Asset Managers</Link>
+                        <Link to="https://www.vayuh.ai/supply-chains" className="block mb-1">Supply Chains</Link>
+                        <Link to="https://www.vayuh.ai/energy-markets" className="block mb-1">Energy Markets</Link>
                     </div>
                 </div>
 
