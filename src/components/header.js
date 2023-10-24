@@ -10,9 +10,9 @@ function Header({ siteTitle }) {
       <nav className="flex flex-wrap justify-between p-3 navbar">
         <div className="flex items-center flex-shrink-0 mr-6 text-white">
           <span className="text-xl font-semibold tracking-tight">
-            <div style={{ maxWidth: `300px`, marginLeft: '0.5rem' }}>
+            <div style={{ maxWidth: `200px`, marginLeft: '0.5rem' }}>
               <StaticImage
-                src="../images/Vayuh-Logo_White.webp"
+                src="../images/Vayuh-Logo_White.png"
                 alt="gatsby astronaut"
               />
             </div>

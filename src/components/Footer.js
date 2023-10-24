@@ -9,9 +9,9 @@ const Footer = () => {
 
                 {/* Vayuh Section */}
                 <div className="w-full font-7 flex flex-col space-between md:w-1/4 mb-8 mx-1">
-                    <div style={{ width: `300px` }}>
+                    <div style={{ width: `200px` }}>
                         <StaticImage
-                            src="../images/Vayuh-Logo_White.webp"
+                            src="../images/Vayuh-Logo_White.png"
                             alt="gatsby astronaut"
                         />
                     </div>
