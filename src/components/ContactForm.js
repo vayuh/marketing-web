@@ -15,7 +15,7 @@ const ContactForm = ({ className }) => {
           onReady={(form) => console.log('Form ready!')}
           loading={<div>Loading...</div>}
         />
-        <h4 style={{color:"rgb(var(--color_42))", fontWeight: 600}}>Lookout for the invite to Vayuh + Lloyd's Lab Workshop on <span style={{color:"rgb(var(--color_42))"}}>CLIMATE CHANGE AND AI TO TACKLE PERILS</span> from us shortly</h4>
+        <h4 style={{color:"rgb(var(--color_42))", fontWeight: 350}}>Lookout for the invite to Vayuh + Lloyd's Lab Workshop on <span style={{fontWeight: 800}}>CLIMATE CHANGE AND AI TO TACKLE PERILS</span> from us shortly</h4>
       </div>
     </div>
 
