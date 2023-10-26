@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import HubspotForm from 'react-hubspot-form';
 import vayuh_background from '../images/vayuh_background.webp';
 
-const ContactForm = ({className}) => {
-  
+const ContactForm = ({ className }) => {
+
   return (
     <div id="signup" className={`flex flex-col items-center ${className}`} style={{ width: '100%', backgroundImage: `url(${vayuh_background})` }}>
       <div className="content contact-form my-4">
@@ -14,7 +14,9 @@ const ContactForm = ({className}) => {
           onSubmit={() => console.log('Submit!')}
           onReady={(form) => console.log('Form ready!')}
           loading={<div>Loading...</div>}
-        /></div>
+        />
+        <h4 style={{fontSize: '12px'}}>Lookout for the invite to Vayuh + Lloyd's Lab Workshop on <span style={{color:"rgb(var(--color_42))"}}>CLIMATE CHANGE AND AI TO TACKLE PERILS</span> from us shortly</h4>
+      </div>
     </div>
 
     // <div className="w-full max-w-lg mx-auto mt-10">
